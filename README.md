@@ -76,6 +76,8 @@
 		return doors[first_selection] == 'C'
 	}
 ```
+전체 코드는 [여기](https://github.com/shoebillk/monty_hall/blob/master/monty_hall.go)에서 볼 수 있다.
+
 
 위와 같은 코드를 선택권을 바꾸는 경우와 바꾸지 않는 경우에 각각 10000회를 실행해 자동차를 선택한 경우의 횟수를 보면 아래와 같이 선택권을 바꾼 경우가 약 2/3(약 66%) 정도의 확률로 자동차를 선택하는데 성공했다. 
 ```
