@@ -55,7 +55,7 @@ func monty_hall(change_mind bool) bool {
 	}
 }
 
-func sumulate(n int, change_mind bool) {
+func simulate(n int, change_mind bool) {
 	count := 0
 
 	for i := 0; i < n; i++ {
@@ -70,6 +70,6 @@ func sumulate(n int, change_mind bool) {
 func main() {
 	fmt.Println("Monty Hall")
 
-	sumulate(10000, false)
-	sumulate(10000, true)
+	simulate(10000, false)
+	simulate(10000, true)
 }
